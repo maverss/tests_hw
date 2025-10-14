@@ -1,6 +1,5 @@
 from pages.base_page import BasePage
 from components.components import WebElement
-from selenium.webdriver.common.by import By
 
 
 class DemoQa(BasePage):

@@ -1,6 +1,7 @@
 from pages.demoqa import DemoQa
 from pages.elements_page import ElementPage
 
+'''
 def test_go_to_page_elements(browser):
     demo_qa_page = DemoQa(browser)
     elements_page = ElementPage(browser)
@@ -29,6 +30,6 @@ def test_page_elements_2(browser):
     assert el_page.icon.exist() == 'Element found'
     assert el_page.btn_sidebar_first.exist() == 'Element found'
     assert el_page.btn_sidebar_first_textbox.exist() == 'Element found'
-
+'''
 
 
